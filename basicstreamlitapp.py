@@ -160,7 +160,7 @@ def main():
             padding-top: 20px;
         }
         .grid-item:hover {
-            background-color: #e0e0e0;
+            background-color: pink;
         }
         .grid-item img {
             max-width: 100%;
@@ -237,8 +237,8 @@ def main():
             text-decoration: none;
         }
         .socialize-item:hover {
-            background-color: #e0e0e0;
-            color: #0e1117;
+            background-color: pink;
+            color: #010271;
         }
         .socialize-item img {
             width: 30px;
@@ -247,6 +247,9 @@ def main():
         }
         .socialize-item span {
             color: white;
+        }
+        .socialize-item:hover span {
+            color: #2487ff;
         }
     </style>
     <div class="socialize-grid">
